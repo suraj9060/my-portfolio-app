@@ -9,9 +9,9 @@
 }
 .picture{
     height: 360px;
-    border: 2px solid black;
-    border-radius: 50%;
-    border-bottom: black 20px solid;
+    /* border: 2px solid black; */
+    /* border-radius: 50%; */
+    /* border-bottom: black 20px solid; */
 }
 
 .about-info{

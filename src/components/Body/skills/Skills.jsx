@@ -16,7 +16,7 @@ function Skills() {
                 {
                     data.map((item) => {
                         return <div className="skills-section">
-                            <label htmlFor="" className="skills-section-title">{item.type}</label>
+                            <div><label htmlFor="" className="skills-section-title">{item.type}</label></div>
                             <div className="skills-list">
                                 {item.list.map((skill) => {
                                     return <SkillCard skill={ skill}/>

@@ -5,6 +5,9 @@ function Web() {
     return (
         <div className="web">
             <div className="wev-option">
+                <a href="#aboutText"><i className="fi fi-rr-edit-alt option-icon"></i>About</a>
+            </div>
+            <div className="wev-option">
                 <a href="#project"><i className="fi fi-rr-edit-alt option-icon"></i>Projects</a>
             </div>
             <div className="wev-option">
@@ -16,7 +19,7 @@ function Web() {
                 <a href="#work"><i className="fi fi-rr-briefcase option-icon"></i>Work</a>
             </div>
             <div className="wev-option">
-                <a href="#contact"><i className="fi fi-rr-user option-icon"></i>User</a>
+                <a href="#contact"><i className="fi fi-rr-user option-icon"></i>Contact</a>
            </div>
         </div>
     )

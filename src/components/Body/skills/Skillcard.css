@@ -12,7 +12,18 @@
 
 .skill-icon {
     font-size: 80px;
+  
+   
 }
+
+.skill-icon:hover{
+    background-color: aquamarine;
+    transition: .5s;
+    padding: 10px;
+    -ms-zoom-animation: default;
+    border-radius: 20px;
+}
+
 .skill-name{
     font-size: 18px;
 }

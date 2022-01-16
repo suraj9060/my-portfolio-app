@@ -15,7 +15,7 @@ const Contact = () => {
                     <SocialMedia />
                 </div>
                 <div className="download">
-                    <a download href={require("../../../image/Suraj-Kumar.pdf")}>
+                    <a  href={require("../../../image/Suraj-Kumar.pdf")} target="_blank">
                         <i class="fi fi-rr-cloud-download download-icon"></i>Download Resume
                     </a>
                 </div>

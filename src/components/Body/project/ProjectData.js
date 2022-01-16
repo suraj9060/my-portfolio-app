@@ -3,7 +3,7 @@ export const ProjectData = [
     id: 1,
     title: "Clone of Nykaa",
     about:
-      "Nykaa is an Indian e-commerce company, founded by Falguni Nayar in 2012 and headquartered in Mumbai. It sells beauty, wellness and fashion products across websites, mobile apps and 76 offline stores. It sells products which are manufactured in India as well as internationally. In 2015, the company expanded from online-only to an omnichannel model and began selling products apart from beauty . In 2020, it retails over 2,000 brands and 200,000 products across its platforms.",
+      "Nykaa is an Indian e-commerce company, founded by Falguni Nayar in 2012 and headquartered in Mumbai. It sells beauty, wellness and fashion products across websites. we have cloned it in 5 days with 3 team member, My area of responsbility was Developed the Navigation Bar. Integrated Hover and clicked effect. Developed a dropdown sidebar page for users. last page of complete the purchase greeting",
     tags: ["ejs", "javascript", "css", "mongoDB", "express"],
     demo: "https://clonednykaa.herokuapp.com/",
     github: "https://github.com/sagar6699k/Nykaa_with_backend",
@@ -13,9 +13,10 @@ export const ProjectData = [
   {
     id: 2,
     title: "Clone of Zoom Car",
-    about:"zoom car is an Indian company based on Bangalore founded in 2013 By David Back and Greg Moran. Its providing self driving car for rant over 34+ city and tetails over 2,000 brands and 200,000 Products across its platforms. ",
-    tags: ["HTML","CSs", "javascript", "BootStrap", "Local storage"],
-    demo: "something demo",
+    about:
+      "zoom car is an Indian company based on Bangalore founded in 2013. This was solo project I have complete it in 6days on my construct week",
+    tags: ["HTML", "CSs", "javascript", "BootStrap", "Local storage"],
+    demo: "https://github.com/suraj9060/zoom-car-project#zoomcar-clone",
     github: "https://github.com/suraj9060/zoom-car-project",
     image:
       "https://camo.githubusercontent.com/664074b6bd7ef09c0572076c19dc29595566180a52563bb830e2a5fc0c0eb324/68747470733a2f2f63646e2e686173686e6f64652e636f6d2f7265732f686173686e6f64652f696d6167652f75706c6f61642f76313633373033373331393836342f37374e53447953464d2e706e67",

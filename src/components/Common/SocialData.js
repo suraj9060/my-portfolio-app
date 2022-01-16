@@ -11,7 +11,7 @@ export const SocialData = [
   },
   {
     platform: "linkedin",
-    link: "https://github.com/suraj9060/",
+    link: "https://www.linkedin.com/in/suraj-kumar-9060/",
     icon: require("../../image/linkedin.png"),
   },
   {
@@ -21,7 +21,9 @@ export const SocialData = [
   },
   {
     platform: "git Hub",
-    link: "https://www.linkedin.com/in/suraj-kumar-9060/",
+    link: "https://github.com/suraj9060/",
     icon: require("../../image/github.png"),
   },
 ];
+
+//

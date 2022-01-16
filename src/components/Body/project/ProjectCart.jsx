@@ -7,13 +7,13 @@ const ProjectCart = ({project}) => {
             <div className='project-info'>
                 <label htmlFor="" className='project-title'>{project.title}</label>
                 <div className='project-links'>
-                    {project.demo && (<a className='project-link' href={project.demo}>
+                    {project.demo && (<a className='project-link' target="_blank" href={project.demo}>
                         <div className='link-button'>
                             <i class="fi fi-rr-globe"></i>Demo
                          </div>
                     </a>
                     )}
-                    {project.github && (<a className='project-link' href={project.github}>
+                    {project.github && (<a className='project-link' target="_blank" href={project.github}>
                         <div className='link-button'>
                             <i class="devicon-github-original colored"></i> Git Hub
                          </div>
@@ -27,7 +27,8 @@ const ProjectCart = ({project}) => {
                 </div>
             </div>
             <div className='project-cart-image'>
-              <img src={project.image} className='project-photo' alt="" />
+                <img src={project.image} className='project-photo' alt="" />
+                
             </div>
         </div>
     )

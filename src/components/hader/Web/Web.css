@@ -2,23 +2,39 @@
     display: flex;
     flex: 1;
     align-items: center;
+    /* position: fixed; */
 }
 .wev-option{
     font-size: 20px;
-    margin-right: 16px;
+    /* margin-right: 26px; */
+    padding: 10px;
+    margin: 10px;
     font-weight: 700;
+    
+    
+   
 }
+.wev-option:hover{
+    color: blue;
+     background-color: aqua;
+     
+     border-radius: 8px;
+     transition: .6s;
+}
+
 .wev-option a{
     text-decoration: none;
     color: black;
     display: flex;
     align-items: center;
+    
 }
 
 .option-icon {
     display: flex;
     align-items: center;
     margin-right: 4px;
+
 }
 .wev-option:last-child{
     margin-right: 0px;
