@@ -7,6 +7,8 @@ html{
     flex-direction: column;
     width: 70%;
     margin: auto;
+   
+    color: #fff
   
 }
 
@@ -15,6 +17,8 @@ html{
         width: 90%;
     }
 }
+
+
 
 @media only screen and (max-width:512px){
     .home{

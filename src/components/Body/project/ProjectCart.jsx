@@ -27,7 +27,10 @@ const ProjectCart = ({project}) => {
                 </div>
             </div>
             <div className='project-cart-image'>
-                <img src={project.image} className='project-photo' alt="" />
+                {/* <img src={project.image} className='project-photo' alt="" /> */}
+                {project.image.map((img) => {
+                    return <img src={img}  className='project-cart-image-img' />
+                })}
                 
             </div>
         </div>
