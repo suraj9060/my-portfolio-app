@@ -14,11 +14,11 @@ const Contact = () => {
                     <p>want to get in touch? contact me on any of the platform</p>
                     <SocialMedia />
                 </div>
-                <div className="download">
+                {/* <div className="download">
                     <a  href={require("../../../image/Suraj-Kumar.pdf")} target="_blank">
                         <i class="fi fi-rr-cloud-download download-icon"></i>Download Resume
                     </a>
-                </div>
+                </div> */}
                 
             </div>
               <div className="info-details">

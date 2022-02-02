@@ -15,7 +15,15 @@ JavaScript, React and Bootstrap seeking employment in
 an organization to provide valuable support.
                 <br />  I have built a number of web applications and 4
           major projects.I am a team player and I have a good leadership skills and I am passionate about new things. 
-        </p></div>
+                </p>
+                
+                 <div className="download">
+                    <a  href={require("../../../image/Suraj-Kumar.pdf")} target="_blank">
+                        <i class="fi fi-rr-cloud-download download-icon"></i>Download Resume
+                    </a>
+                </div>
+                
+                </div>
             <div className="aboutText-right">
                 <img src={require("../../../image/gif-4mb.gif")} alt="" />
             </div>

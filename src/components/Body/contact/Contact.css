@@ -27,11 +27,13 @@
 .download {
     background-color: aquamarine;
     padding: 8px 16px;
-    font-size: 24px;
+    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    width: 60%;
+    margin: auto;
 }
 
 .download a {
@@ -53,7 +55,6 @@
 
 .social-icon {
 
-
     border-radius: 5px;
 
 }
@@ -74,5 +75,19 @@
 
     .download {
         font-size: 15px;
+    }
+
+
+    .download {
+      width: 70%;
+      margin: bottom 30px;;
+      align-items: center;
+      margin: auto;
+      
+    }
+
+    .download a {
+        text-decoration: none;
+        color: black;
     }
 }
