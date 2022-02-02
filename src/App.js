@@ -1,13 +1,14 @@
 
 import './App.css';
 import Home from './components/Home';
+import { ThemeProvider} from './components/toggle/context'
 
 function App() {
   return (
     <div className="App">
-      
-      <Home />
-
+      <ThemeProvider>
+        <Home />
+      </ThemeProvider>
     </div>
   );
 }
