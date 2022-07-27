@@ -1,6 +1,50 @@
 export const ProjectData = [
   {
     id: 1,
+    title: "Pizza App",
+    about:
+      "This is a pizza ordering app using MERN Stack Features Signin and Signup,authentication,Cart Page,Orders Page,Managing State using Redux,Auto calculations price,Payment Getway using Strip",
+    tags: [
+      "javaScript",
+      "CSS",
+      "React",
+      "React-Bootstrap",
+      "Node js",
+      "Express",
+      "MongoDB",
+      "Redux",
+    ],
+    demo: "https://github.com/suraj9060/pizza-shop#readme",
+    github: "https://github.com/suraj9060/pizza-shop",
+    image: [
+      "https://user-images.githubusercontent.com/87435542/178153030-763cfb01-3c21-49ea-8a4f-ecef5b716a1c.png",
+      "https://user-images.githubusercontent.com/87435542/178153031-6342dc60-9315-48fa-90d8-dc60676a4028.png",
+    ],
+  },
+  {
+    id: 2,
+    title: "Blog App",
+    about:
+      "This is a Blog App using MERN Stack Features Signin and Signup,authentication,Managing State using Redux,Password Hash, user can create read update and delete there blog,",
+    tags: [
+      "javaScript",
+      "CSS",
+      "React",
+      "Material UI",
+      "Node js",
+      "Express",
+      "MongoDB",
+      "Redux",
+    ],
+    demo: "https://github.com/suraj9060/BlogApp#readme",
+    github: "https://github.com/suraj9060/BlogApp",
+    image: [
+      "https://user-images.githubusercontent.com/87435542/178120955-dd482d71-c21e-4afb-8fc6-d8b527d4bace.png",
+      "https://user-images.githubusercontent.com/87435542/178120958-fa79d763-3fa7-482e-9003-559f15383552.png",
+    ],
+  },
+  {
+    id: 3,
     title: "Clone of Nykaa",
     about:
       "This was a Team Project and My area of responsibility was making UI of add to cart page. drop-down menu and greeting page .",
@@ -13,7 +57,7 @@ export const ProjectData = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     title: "Clone of dineout",
     about:
       "This was a Team Project and My area of responsibility was making UI of login pang and Api for backend",
